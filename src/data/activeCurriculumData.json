@@ -1,0 +1,2426 @@
+{
+  "activeUnits": [
+    {
+      "id": "fonctions_exponentielles",
+      "nameAr": "الدوال الأسية",
+      "nameFr": "Fonctions Exponentielles",
+      "code": "EXP",
+      "badge": "eˣ",
+      "descriptionAr": "دراسة الدوال الأسية، حل المعادلات والمتراجحات، النهايات والاشتقاقية، التزايد المقارن، ورسم المنحنيات البيانية والمناقشة البيانية.",
+      "descriptionFr": "Étude des fonctions exponentielles, équations et inéquations, limites et dérivabilité, croissance comparée, tracés et discussions graphiques.",
+      "subUnits": [
+        {
+          "id": "limites",
+          "nameAr": "النهايات",
+          "nameFr": "Limites",
+          "descriptionAr": "حساب النهايات، المستقيمات المقاربة الأفقية والعمودية والمائلة، وحالات عدم التعيين.",
+          "descriptionFr": "Calcul de limites, asymptotes horizontales, verticales et obliques, et levée des indéterminations."
+        },
+        {
+          "id": "derivabilite_continuite",
+          "nameAr": "الاشتقاقية والاستمرارية",
+          "nameFr": "Dérivabilité & Continuité",
+          "descriptionAr": "الاستمرارية، مبرهنة القيم المتوسطة، حساب الدالة المشتقة، معادلات المماس والتقريب التآلفي.",
+          "descriptionFr": "Continuité, TVI, calcul de dérivée, équations de tangentes et sens de variation."
+        },
+        {
+          "id": "croissance_comparee_etude",
+          "nameAr": "التزايد المقارن ودراسة الدوال",
+          "nameFr": "Croissance Comparée & Étude de Fonctions",
+          "descriptionAr": "نهايات التزايد المقارن مع eˣ، دراسة الدوال المساعدة، نقط الانعطاف ومراكز التناظر، والمناقشات البيانية.",
+          "descriptionFr": "Croissance comparée (exp), fonctions auxiliaires, points d'inflexion, centres de symétrie et discussions graphiques."
+        }
+      ]
+    },
+    {
+      "id": "fonctions_logarithmiques",
+      "nameAr": "الدوال اللوغاريتمية",
+      "nameFr": "Fonctions Logarithmiques",
+      "code": "LN",
+      "badge": "ln(x)",
+      "descriptionAr": "دراسة دوال اللوغاريتم النيبيري، خواص الجداء والكسر، النهايات الشهيرة، المشتقات، التزايد المقارن، والمساحات والمقاربات.",
+      "descriptionFr": "Étude du logarithme népérien, propriétés algébriques, limites usuelles, dérivées, croissance comparée, asymptotes et calculs d'aires.",
+      "subUnits": [
+        {
+          "id": "limites",
+          "nameAr": "النهايات",
+          "nameFr": "Limites",
+          "descriptionAr": "نهايات ln(x)، المستقيمات المقاربة عند 0 و +∞، وحالات عدم التعيين.",
+          "descriptionFr": "Limites usuelles de ln(x), asymptotes et levée d'indéterminations."
+        },
+        {
+          "id": "derivabilite_continuite",
+          "nameAr": "الاشتقاقية والاستمرارية",
+          "nameFr": "Dérivabilité & Continuité",
+          "descriptionAr": "مجال التعريف، الاستمرارية، قابلية الاشتقاق وحساب المشتق u'/u، مبرهنة القيم المتوسطة والمماسات.",
+          "descriptionFr": "Domaine de définition, continuité, dérivabilité (u'/u), théorème des valeurs intermédiaires et tangentes."
+        },
+        {
+          "id": "croissance_comparee_etude",
+          "nameAr": "التزايد المقارن ودراسة الدوال",
+          "nameFr": "Croissance Comparée & Étude de Fonctions",
+          "descriptionAr": "التزايد المقارن مع ln(x) و xⁿ، إشارة الدالة المساعدة g(x)، نقط الانعطاف والتكامل وحساب المساحة.",
+          "descriptionFr": "Croissance comparée (ln), fonctions auxiliaires, points d'inflexion, intégration et calcul d'aires."
+        }
+      ]
+    },
+    {
+      "id": "suites_numeriques",
+      "nameAr": "المتتاليات العددية",
+      "nameFr": "Suites Numériques",
+      "code": "SEQ",
+      "badge": "(uₙ)",
+      "descriptionAr": "المتتاليات التراجعية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتاليات الحسابية والهندسية، اتجاه التغير والتقارب والمجاميع والجداءات.",
+      "descriptionFr": "Suites récurrentes u_{n+1}=f(u_n), raisonnement par récurrence, suites arithmétiques et géométriques, convergence, calcul de sommes et produits.",
+      "subUnits": []
+    }
+  ],
+  "exercises": [
+    {
+      "id": "M2008-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "complex_numbers",
+      "titleAr": "التشابه المباشر ومتتالية النقط والمجموع",
+      "titleFr": "Similitude directe, suites de points et sommes",
+      "scorePoints": 5,
+      "descriptionAr": "المستوي المركب، عبارة التشابه المباشر S، متتالية النقط An، ومجموع متتالية هندسية.",
+      "descriptionFr": "Plan complexe, similitude directe, suite géométrique et somme.",
+      "keywords": [
+        "أعداد مركبة",
+        "تشابه مباشر",
+        "متتالية"
+      ],
+      "relatedUnitIds": [
+        "complex_numbers",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2008-1",
+      "paperYear": 2008,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2008.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2008.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2008-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "numerical_functions_diff_cont",
+      "titleAr": "الدالة الصماء والمتتالية التراجعية المرتبطة",
+      "titleFr": "Fonction irrationnelle et suite récurrente",
+      "scorePoints": 6,
+      "descriptionAr": "الدالة f(x)=3+sqrt(x-1)، قابلية الاشتقاق عند 1 وتفسيرها، والمتتالية u_{n+1}=f(u_n).",
+      "descriptionFr": "Fonction racine f(x)=3+sqrt(x-1), dérivabilité en 1 et suite récurrente.",
+      "keywords": [
+        "دوال عددية",
+        "اشتقاقية",
+        "متتاليات"
+      ],
+      "relatedUnitIds": [
+        "numerical_functions_diff_cont",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2008-1",
+      "paperYear": 2008,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2008.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2008.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2008-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية والمتتالية الهندسية المساعدة",
+      "titleFr": "Suite récurrente linéaire et suite géométrique",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=2/3 u_n + 1، إثبات ثبات v_n، عبارة u_n وحساب نهايتها ومجموع w_n.",
+      "descriptionFr": "Suite u_{n+1}=2/3 u_n + 1, suite constante, convergence et sommes.",
+      "keywords": [
+        "متتاليات",
+        "متتالية هندسية",
+        "مجموع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2008-2",
+      "paperYear": 2008,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2008.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2008.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2008-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "الدالة الأسية الكسرية ونقطة الانعطاف ومركز التناظر",
+      "titleFr": "Fonction exponentielle rationnelle, inflexion et symétrie",
+      "scorePoints": 7,
+      "descriptionAr": "الدالة f(x)=x-1+4/(e^x+1)، نقطة الانعطاف، مركز التناظر، والمستقيمات المقاربة.",
+      "descriptionFr": "Fonction f(x)=x-1+4/(e^x+1), inflexion, centre de symétrie et asymptotes.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "نقطة انعطاف"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2008-2",
+      "paperYear": 2008,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2008.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2008.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2009-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، المناقشة البيانية والتكامل",
+      "titleFr": "Fonction logarithme, discussion graphique et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دراسة الدالة f(x) باللوغاريتم النيبيري، المستقيمات المقاربة، المناقشة البيانية وحساب المساحة.",
+      "descriptionFr": "Étude d'une fonction logarithme, asymptotes, discussion et intégrale.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مناقشة بيانية",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2009-1",
+      "paperYear": 2009,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2009.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2009.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 6
+    },
+    {
+      "id": "M2009-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية العددية التراجعية، البرهان بالتراجع والمجاميع",
+      "titleFr": "Suite récurrente, récurrence et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، اتجاه التغير، التقارب ومجموع متتالية هندسية.",
+      "descriptionFr": "Suite récurrente, récurrence, convergence et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2009-2",
+      "paperYear": 2009,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2009.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2009.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2009-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية، نقطة الانعطاف والدوال الأصلية",
+      "titleFr": "Fonction exponentielle, inflexion et primitives",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، دراسة التغيرات، نقطة الانعطاف والدوال الأصلية وحساب المساحة.",
+      "descriptionFr": "Fonction exponentielle, fonction auxiliaire, inflexion et primitives.",
+      "keywords": [
+        "دوال أسية",
+        "دوال أصلية",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2009-2",
+      "paperYear": 2009,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2009.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2009.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2010-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، التغيرات والمساحات والتكامل",
+      "titleFr": "Fonction logarithme, variations, aires et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية كسرية، دراسة التغيرات، المستقيمات المقاربة، حساب التكامل والمساحات.",
+      "descriptionFr": "Fonction rationnelle avec ln, variations, asymptotes et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل",
+        "مساحات"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2010-1",
+      "paperYear": 2010,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2010.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2010.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 6
+    },
+    {
+      "id": "M2010-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات التراجعية والبرهان بالتراجع ونهاية المتتالية",
+      "titleFr": "Suite récurrente, récurrence et limite",
+      "scorePoints": 4.5,
+      "descriptionAr": "المتتالية u_{n+1}=g(u_n)، دراسة التقارب، المتتالية الهندسية المساعدة وحساب النهاية.",
+      "descriptionFr": "Suite récurrente, sens de variation, suite géométrique et limite.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "نهاية"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2010-2",
+      "paperYear": 2010,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2010.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2010.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2010-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية، جدول التغيرات والتكامل بالتجزئة",
+      "titleFr": "Fonction exponentielle et intégration par parties",
+      "scorePoints": 7,
+      "descriptionAr": "دراسة دالة أسية، جدول التغيرات، المستقيم المقارب، والتكامل بالتجزئة لحساب مساحة الحيز.",
+      "descriptionFr": "Fonction exponentielle, tableau de variations, asymptote et intégration par parties.",
+      "keywords": [
+        "دوال أسية",
+        "تكامل بالتجزئة",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2010-2",
+      "paperYear": 2010,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2010.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2010.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2011-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، المشتقات المتتالية وحساب المساحة",
+      "titleFr": "Fonction logarithme, dérivées successives et aires",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية، المشتق الأول والثاني، المستقيمات المقاربة، وحساب مساحة الحيز بالتكامل.",
+      "descriptionFr": "Fonction logarithmique, dérivées successives, asymptotes et calcul d'aire.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مشتقات",
+        "تكامل",
+        "مساحات"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2011-1",
+      "paperYear": 2011,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2011.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2011.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 6
+    },
+    {
+      "id": "M2011-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية u_{n+1}=g(u_n)، التقارب والمجاميع",
+      "titleFr": "Suite récurrente u_{n+1}=g(u_n), convergence et sommes",
+      "scorePoints": 4.5,
+      "descriptionAr": "المتتالية التراجعية، حصر الحدود بالبرهان بالتراجع، المتتالية الهندسية وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, encadrement par récurrence, convergence et sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "تقارب"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2011-2",
+      "paperYear": 2011,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2011.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2011.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2011-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية شاملة، المستقيم المقارب المائل والمناقشة البيانية",
+      "titleFr": "Fonction exponentielle complète et discussion graphique",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، جدول التغيرات، المستقيم المقارب المائل والمناقشة البيانية.",
+      "descriptionFr": "Fonction exponentielle avec fonction auxiliaire, asymptote oblique et discussion.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "مناقشة بيانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2011-2",
+      "paperYear": 2011,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2011.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2011.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2012-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، المتتالية المرتبطة والتكامل",
+      "titleFr": "Fonction logarithme, suite associée et intégrale",
+      "scorePoints": 8,
+      "descriptionAr": "دالة لوغاريتمية، التغيرات والمنحنى البياني، المتتالية التكاملية وحساب مساحة الحيز.",
+      "descriptionFr": "Fonction logarithme, tracé, suite d'intégrales et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل",
+        "متتاليات"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2012-1",
+      "paperYear": 2012,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2012.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2012.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 6
+    },
+    {
+      "id": "M2012-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "متتالية تراجعية، المتتالية المساعدة الهندسية وحساب المجاميع",
+      "titleFr": "Suite récurrente, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية v_n، عبارة الحد العام والمجاميع.",
+      "descriptionFr": "Suite récurrente, suite auxiliaire géométrique, terme général et sommes.",
+      "keywords": [
+        "متتاليات",
+        "متتالية هندسية",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2012-2",
+      "paperYear": 2012,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2012.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2012.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2012-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية مركبة، المشتقة الثانية ونقطة الانعطاف والرسم",
+      "titleFr": "Fonction exponentielle, dérivée seconde, inflexion et tracé",
+      "scorePoints": 8,
+      "descriptionAr": "دالة أسية مركبة مع دالة مساعدة، المشتقة الثانية، نقطة الانعطاف، المستقيم المقارب ورسم المنحنى.",
+      "descriptionFr": "Fonction exponentielle, dérivée seconde, point d'inflexion, asymptotes et tracé.",
+      "keywords": [
+        "دوال أسية",
+        "نقطة انعطاف",
+        "مشتقة ثانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits",
+        "comparative_growth_analysis",
+        "complex_numbers"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2012-2",
+      "paperYear": 2012,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2012.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2012.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2013-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، الدالة المساعدة وحساب المساحة بالتكامل",
+      "titleFr": "Fonction logarithme, fonction auxiliaire et intégration",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية، دراسة إشارة الدالة المساعدة g(x)، التغيرات، المستقيم المقارب وحساب التكامل.",
+      "descriptionFr": "Fonction logarithme, variations, asymptote et calcul d'aires par intégration.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2013-1",
+      "paperYear": 2013,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2013.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2013.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2013-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات المتجاورة، البرهان بالتراجع وحساب النهاية",
+      "titleFr": "Suites adjacentes, récurrence et calcul de limite",
+      "scorePoints": 4,
+      "descriptionAr": "دراسة متتاليتين متداخلتين، البرهان بالتراجع، إثبات تجاورهما وحساب النهاية المشتركة.",
+      "descriptionFr": "Suites récurrentes imbriquées, récurrence, suites adjacentes et limite commune.",
+      "keywords": [
+        "متتاليات",
+        "متتاليات متجاورة",
+        "تقارب"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2013-2",
+      "paperYear": 2013,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2013.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2013.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2013-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية مع دالة مساعدة، المستقيم المقارب والمناقشة البيانية",
+      "titleFr": "Fonction exponentielle, asymptotes et discussion graphique",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية f(x)، جدول التغيرات، المستقيم المقارب المائل، المناقشة البيانية وحساب مساحة الحيز.",
+      "descriptionFr": "Fonction exponentielle, tableau de variations, asymptote oblique et calcul d'aire.",
+      "keywords": [
+        "دوال أسية",
+        "مناقشة بيانية",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2013-2",
+      "paperYear": 2013,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2013.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2013.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2014-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، مركز التناظر، المماس والمساحة المحصورة",
+      "titleFr": "Fonction exponentielle, centre de symétrie, tangente et aire",
+      "scorePoints": 6,
+      "descriptionAr": "دراسة دالة أسية، مركز التناظر، معادلة المماس، رسم المنحنى وحساب التكامل والمساحة.",
+      "descriptionFr": "Fonction exponentielle, centre de symétrie, tangente et intégrale.",
+      "keywords": [
+        "دوال أسية",
+        "مركز تناظر",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2014-1",
+      "paperYear": 2014,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2014.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2014.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 6
+    },
+    {
+      "id": "M2014-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية، دراسة اتجاه التغير وحساب المجاميع",
+      "titleFr": "Suite récurrente, sens de variation et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, sens de variation, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2014-2",
+      "paperYear": 2014,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2014.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2014.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2014-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "arithmetic_numbers",
+      "titleAr": "بواقي قسمة 3^n على 7، المتتالية في Z والمعادلة في Z^2",
+      "titleFr": "Restes de 3^n modulo 7, suite dans Z et équation",
+      "scorePoints": 4.5,
+      "descriptionAr": "دورية بواقي قسمة 3^n على 7، المتتالية العددية في Z، وتعيين الثنائيات في Z^2.",
+      "descriptionFr": "Restes de 3^n modulo 7, suite à valeurs entières et couples solutions.",
+      "keywords": [
+        "حساب",
+        "موافقات",
+        "متتاليات"
+      ],
+      "relatedUnitIds": [
+        "arithmetic_numbers",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2014-2",
+      "paperYear": 2014,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2014.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2014.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2014-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية f(x)=x-1-ln(x)/(x^2)، نقطة الانعطاف والتكامل",
+      "titleFr": "Fonction f(x)=x-1-ln(x)/(x^2), inflexion et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، المستقيم المقارب المائل، نقطة الانعطاف، وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction f(x)=x-1-ln(x)/(x^2), asymptote oblique, point d'inflexion et intégrale.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "نقطة انعطاف",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2014-2",
+      "paperYear": 2014,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2014.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2014.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2015-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة لوغاريتمية مركبة، النهايات، جدول التغيرات والمساحة",
+      "titleFr": "Fonction logarithmique composée, variations et aires",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مركبة مع دالة مساعدة، المستقيمات المقاربة، رسم المنحنى وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction logarithme composée, fonction auxiliaire, variations et calcul d'aire.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "complex_numbers"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2015-1",
+      "paperYear": 2015,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2015.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2015.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2015-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية العددية التراجعية، المتتالية الهندسية المساعدة وحساب المجاميع",
+      "titleFr": "Suite récurrente, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية التراجعية، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, suite géométrique auxiliaire et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "متتالية هندسية",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2015-2",
+      "paperYear": 2015,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2015.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2015.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2015-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية f(x)=(x-1)e^(1/x) مع دراسة المتتالية u_{n+1}=f(u_n) ومناقشة بيانية",
+      "titleFr": "Fonction exponentielle f(x)=(x-1)e^(1/x) et suite associée",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية f(x)=(x-1)e^(1/x)، الاستمرارية عند 0، المستقيم المقارب المائل، المتتالية u_{n+1}=f(u_n) والمناقشة البيانية.",
+      "descriptionFr": "Fonction f(x)=(x-1)e^(1/x), continuité en 0, asymptote, suite associée et discussion.",
+      "keywords": [
+        "دوال أسية",
+        "استمرارية",
+        "متتاليات",
+        "مناقشة بيانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont",
+        "comparative_growth_analysis",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2015-2",
+      "paperYear": 2015,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2015.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2015.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2016-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة عددية لوغاريتمية، التغيرات والمماسات وحساب التكامل بالتجزئة",
+      "titleFr": "Fonction logarithmique, tangentes et intégration par parties",
+      "scorePoints": 7,
+      "descriptionAr": "دراسة دالة لوغاريتمية، المشتقات، المستقيمات المقاربة، التكامل بالتجزئة وحساب مساحة الحيز.",
+      "descriptionFr": "Fonction logarithmique, dérivabilité, intégration par parties et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل بالتجزئة",
+        "مساحات"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2016-1",
+      "paperYear": 2016,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2016.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2016.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2016-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات التراجعية والبرهان بالتراجع وحساب المجاميع",
+      "titleFr": "Suites récurrentes, récurrence et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2016-2",
+      "paperYear": 2016,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2016.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2016.pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2016-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية f(x)=x-1+2/(e^x+1)، نقطة الانعطاف والمستقيمات المقاربة",
+      "titleFr": "Fonction exponentielle f(x)=x-1+2/(e^x+1) et asymptotes",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية كسرية، نقطة الانعطاف ومماسها، مركز التناظر، والمستقيمات المقاربة المائلة والتكامل.",
+      "descriptionFr": "Fonction exponentielle rationnelle, inflexion, centre de symétrie et intégrale.",
+      "keywords": [
+        "دوال أسية",
+        "نقطة انعطاف",
+        "مستقيم مقارب"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2016-2",
+      "paperYear": 2016,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2016.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2016.pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2017-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، مبرهنة القيم المتوسطة والمساحة المحصورة",
+      "titleFr": "Fonction logarithme, TVI et calcul d'aires",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، مبرهنة القيم المتوسطة، المستقيمات المقاربة وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction logarithmique, théorème des valeurs intermédiaires et intégrale.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مبرهنة القيم المتوسطة",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2017-1",
+      "paperYear": 2017,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2017-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "متتالية معرفة بعلاقة تراجعية، حصر المتتالية وحساب النهاية",
+      "titleFr": "Suite récurrente, encadrement et calcul de limite",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، حصر المتتالية، اتجاه التغير وحساب النهاية.",
+      "descriptionFr": "Suite récurrente, encadrement par récurrence et calcul de limite.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "نهاية"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2017-2",
+      "paperYear": 2017,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2017-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية، المستقيم المقارب المائل والمناقشة البيانية",
+      "titleFr": "Fonction exponentielle, asymptote oblique et discussion",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، جدول التغيرات، المستقيم المقارب المائل، المناقشة البيانية والتكامل.",
+      "descriptionFr": "Fonction exponentielle, asymptote oblique, discussion graphique et intégrale.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "مناقشة بيانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2017-2",
+      "paperYear": 2017,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2017R-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، التغيرات والمنحنى البياني والتكامل",
+      "titleFr": "Fonction logarithmique, variations et calcul d'aires",
+      "scorePoints": 7,
+      "descriptionAr": "دراسة دالة لوغاريتمية شاملة، المستقيمات المقاربة، رسم المنحنى وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction logarithmique, asymptotes, tracé et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2017R-1",
+      "paperYear": 2017,
+      "paperSession": "exceptionnelle",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2017R-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية، البرهان بالتراجع وحساب المجموع والجداء",
+      "titleFr": "Suite récurrente, récurrence, sommes et produits",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية وحساب المجاميع والجداءات.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique, sommes et produits.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2017R-2",
+      "paperYear": 2017,
+      "paperSession": "exceptionnelle",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 11,
+      "solutionPageEnd": 14
+    },
+    {
+      "id": "M2017R-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، نقطة الانعطاف والمماس والمساحة",
+      "titleFr": "Fonction exponentielle, inflexion, tangente et aire",
+      "scorePoints": 7,
+      "descriptionAr": "دراسة دالة أسية مع دالة مساعدة، المشتقة الثانية، نقطة الانعطاف والمماس والمساحة المحصورة.",
+      "descriptionFr": "Fonction exponentielle, point d'inflexion, tangente et intégrale.",
+      "keywords": [
+        "دوال أسية",
+        "نقطة انعطاف",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_diff_cont",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2017R-2",
+      "paperYear": 2017,
+      "paperSession": "exceptionnelle",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2017 (1).pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 11,
+      "solutionPageEnd": 14
+    },
+    {
+      "id": "M2018-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات العددية، تمثيل الحدود والتخمين والبرهان بالتراجع",
+      "titleFr": "Suites numériques, conjecture, récurrence et limite",
+      "scorePoints": 4,
+      "descriptionAr": "تمثيل حدود المتتالية u_n بيانيا، تخمين اتجاه التغير والتقارب، البرهان بالتراجع وحساب النهاية ومجموع Sn.",
+      "descriptionFr": "Représentation graphique des termes, conjecture, récurrence, limite et somme Sn.",
+      "keywords": [
+        "متتاليات",
+        "تمثيل بياني",
+        "برهان بالتراجع",
+        "نهاية"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2018-1",
+      "paperYear": 2018,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2018.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2018.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2018-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، مبرهنة القيم المتوسطة، المماس والتكامل",
+      "titleFr": "Fonction logarithmique, TVI, tangente et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية، إشارة الدالة المساعدة، مبرهنة القيم المتوسطة، المستقيمات المقاربة وحساب المساحة.",
+      "descriptionFr": "Fonction logarithme, variations, TVI, asymptotes et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مبرهنة القيم المتوسطة",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2018-1",
+      "paperYear": 2018,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2018.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2018.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2018-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، المستقيم المقارب المائل، وضعية المنحنى والمناقشة البيانية",
+      "titleFr": "Fonction exponentielle, asymptote oblique et discussion",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، المستقيم المقارب المائل، دراسة الوضع النسبي، والمناقشة البيانية.",
+      "descriptionFr": "Fonction exponentielle, asymptote oblique, positions relatives et discussion graphique.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "مناقشة بيانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2018-2",
+      "paperYear": 2018,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2018.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2018.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 12
+    },
+    {
+      "id": "M2019-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "arithmetic_numbers",
+      "titleAr": "المعادلة في ZxZ، بيزو، المتتالية الحسابية والحدود المشتركة",
+      "titleFr": "Équation dans ZxZ, Bézout et termes communs de suites",
+      "scorePoints": 4,
+      "descriptionAr": "حل المعادلة في ZxZ باستعمال بيزو، المتتاليتان الحسابيتان u_alpha و v_beta، والحدود المشتركة والجداء p.",
+      "descriptionFr": "Équation diophantienne par Bézout, suites arithmétiques, termes communs et factorielle.",
+      "keywords": [
+        "حساب",
+        "بيزو",
+        "متتاليات حسابية"
+      ],
+      "relatedUnitIds": [
+        "arithmetic_numbers",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2019-1",
+      "paperYear": 2019,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2019.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2019.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2019-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، دراسة التغيرات، نقطة الانعطاف وحساب المساحة بالتكامل",
+      "titleFr": "Fonction exponentielle, inflexion et intégration",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية، دراسة اتجاه التغير، المستقيمات المقاربة، نقطة الانعطاف، وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction exponentielle, variations, point d'inflexion, asymptotes et calcul d'aire.",
+      "keywords": [
+        "دوال أسية",
+        "نقطة انعطاف",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2019-1",
+      "paperYear": 2019,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2019.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2019.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2019-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية، المتتالية المساعدة الهندسية والمجاميع",
+      "titleFr": "Suite récurrente, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, suite géométrique auxiliaire et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "متتالية هندسية",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2019-2",
+      "paperYear": 2019,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2019.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2019.pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 11,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2019-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، مبرهنة القيم المتوسطة والمماسات",
+      "titleFr": "Fonction logarithme, TVI, tangentes et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، مبرهنة القيم المتوسطة، المماس عند نقطة، وحساب التكامل.",
+      "descriptionFr": "Fonction logarithmique, TVI, tangentes, tracé et intégrale.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مبرهنة القيم المتوسطة",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2019-2",
+      "paperYear": 2019,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2019.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2019.pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 11,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2020-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات التراجعية، البرهان بالتراجع، المتتالية الهندسية والمجموع",
+      "titleFr": "Suites récurrentes, récurrence, suite géométrique et somme Sn",
+      "scorePoints": 4,
+      "descriptionAr": "الدالة f(x)، البرهان بالتراجع، المتتالية الهندسية v_n أساسها 5/8، النهاية lim u_n=1 والمجموع Sn.",
+      "descriptionFr": "Suite récurrente liée à f(x), récurrence, suite géométrique de raison 5/8, limite et somme.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "متتالية هندسية",
+        "مجموع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2020-1",
+      "paperYear": 2020,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2020.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2020.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2020-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة لوغاريتمية، التغيرات والمنحنى البياني والتكامل",
+      "titleFr": "Fonction logarithme, variations, tracé et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، اتجاه التغير، المستقيم المقارب، نقطة الانعطاف وحساب المساحة.",
+      "descriptionFr": "Fonction logarithmique, fonction auxiliaire, variations, asymptote et calcul d'aire.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مستقيم مقارب",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2020-1",
+      "paperYear": 2020,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2020.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2020.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2020-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "دراسة متتالية عددية تراجعية، التقارب والمتتالية الهندسية",
+      "titleFr": "Suite récurrente, convergence et suite géométrique",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، دراسة التغير والتقارب، المتتالية الهندسية المساعدة وحساب النهاية.",
+      "descriptionFr": "Suite récurrente, sens de variation, suite géométrique et calcul de limite.",
+      "keywords": [
+        "متتاليات",
+        "تقارب",
+        "متتالية هندسية"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2020-2",
+      "paperYear": 2020,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2020.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2020.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2020-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية، المستقيم المقارب والمناقشة البيانية الوسيطية",
+      "titleFr": "Fonction exponentielle, asymptote et discussion paramétrique",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، المستقيم المقارب المائل، المناقشة البيانية حسب الوسيط وحساب التكامل.",
+      "descriptionFr": "Fonction exponentielle, asymptote oblique, discussion graphique et intégrale.",
+      "keywords": [
+        "دوال أسية",
+        "مناقشة بيانية",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2020-2",
+      "paperYear": 2020,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2020.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2020.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2021-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات التراجعية والبرهان بالتراجع والمتتالية الهندسية وحساب المجاميع",
+      "titleFr": "Suites récurrentes, récurrence, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=-11/4 + 27/(4(-4u_n+1))، البرهان بالتراجع، المتتالية الهندسية v_n، النهاية lim u_n=-2 والمجموع Sn.",
+      "descriptionFr": "Suite récurrente homographique, récurrence, suite géométrique v_n, limite et somme Sn.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "متتالية هندسية",
+        "مجموع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2021-1",
+      "paperYear": 2021,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pdfFileName": "dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2021-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية، التغيرات، نقطة الانعطاف والرسم والمساحة",
+      "titleFr": "Fonction exponentielle, inflexion, tracé et calcul d'aire",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، تقاطع المنحنى مع محور الفواصل، نقطة الانعطاف، الرسم وحساب المساحة.",
+      "descriptionFr": "Fonction exponentielle, zéros de la fonction, point d'inflexion, tracé et aire.",
+      "keywords": [
+        "دوال أسية",
+        "نقطة انعطاف",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2021-1",
+      "paperYear": 2021,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pdfFileName": "dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2021-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "متتالية معرفة بعلاقة تراجعية، حصر المتتالية وحساب النهاية",
+      "titleFr": "Suite récurrente, encadrement et calcul de limite",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=g(u_n)، البرهان بالتراجع، حصر المتتالية، اتجاه التغير وحساب النهاية ومجموع Sn.",
+      "descriptionFr": "Suite récurrente, encadrement par récurrence, convergence et somme.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "تقارب"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2021-2",
+      "paperYear": 2021,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pdfFileName": "dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2021-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، مبرهنة القيم المتوسطة، المماسات والتكامل",
+      "titleFr": "Fonction logarithme, TVI, tangentes et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، مبرهنة القيم المتوسطة، المماسات، المنحنى البياني والتكامل.",
+      "descriptionFr": "Fonction logarithmique, TVI, tangentes, asymptotes et calcul d'intégrale.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مبرهنة القيم المتوسطة",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2021-2",
+      "paperYear": 2021,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pdfFileName": "dzexams-annale-STdETTNHTVE5cE9LT3VheGVhNjk2QT09.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2022-1-EX1",
+      "exerciseNumber": 1,
+      "unitId": "arithmetic_numbers",
+      "titleAr": "بواقي قسمة 2^n و 6^n على 7، المتتالية an = 2^n + 6^n والمجموع Sn",
+      "titleFr": "Restes modulo 7 pour 2^n et 6^n, suite an et somme Sn",
+      "scorePoints": 4,
+      "descriptionAr": "بواقي قسمة 2^n و 6^n على 7، المتتالية an=2^n+6^n، وتعيين قيم n التي تجعل المجموع Sn مضاعفا لـ 7.",
+      "descriptionFr": "Congruences modulo 7 pour 2^n et 6^n, suite an et divisibilité de la somme Sn.",
+      "keywords": [
+        "حساب",
+        "موافقات",
+        "متتاليات",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "arithmetic_numbers",
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2022-1",
+      "paperYear": 2022,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pdfFileName": "dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2022-1-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "أسئلة صحيح أو خطأ في المتتاليات والدوال والموافقات",
+      "titleFr": "Vrai ou Faux sur suites, fonctions et congruences",
+      "scorePoints": 4,
+      "descriptionAr": "أسئلة صحيح أو خطأ مع التبرير: عبارة متتالية هندسية، خواص اللوغاريتم، جملة موافقات، وشفعية دالة.",
+      "descriptionFr": "Vrai ou Faux justifié portant sur suites géométriques, logarithmes et congruences.",
+      "keywords": [
+        "متتاليات",
+        "صحيح أو خطأ",
+        "دوال",
+        "موافقات"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2022-1",
+      "paperYear": 2022,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pdfFileName": "dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2022-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية مركبة، النهايات، جدول التغيرات والمماسات",
+      "titleFr": "Fonction exponentielle composée, variations et asymptotes",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، المستقيم المقارب، نقطة الانعطاف، المماس والمساحة المحصورة بالتكامل.",
+      "descriptionFr": "Fonction exponentielle composée, point d'inflexion, asymptotes et calcul d'aire.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont",
+        "comparative_growth_analysis",
+        "complex_numbers"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2022-1",
+      "paperYear": 2022,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pdfFileName": "dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 5,
+      "solutionPageEnd": 7
+    },
+    {
+      "id": "M2022-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "متتالية تراجعية، البرهان بالتراجع، المتتالية الهندسية والمجاميع",
+      "titleFr": "Suite récurrente, récurrence, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2022-2",
+      "paperYear": 2022,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pdfFileName": "dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2022-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، نقطة الانعطاف، المستقيم المقارب والمساحة",
+      "titleFr": "Fonction logarithme, inflexion, asymptote et aire",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، نقطة الانعطاف، المستقيم المقارب، المناقشة وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction logarithme, point d'inflexion, asymptote et calcul d'aire.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "نقطة انعطاف",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2022-2",
+      "paperYear": 2022,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pdfFileName": "dzexams-annale-STBXdVRXQnBIaU9zWjh2SHlYS29yZz09.pdf",
+      "pageStart": 3,
+      "pageEnd": 4,
+      "solutionPageStart": 8,
+      "solutionPageEnd": 10
+    },
+    {
+      "id": "M2023-1-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "تمثيل الحدود على المنحنى، التخمين حول رتابة وتقارب المتتالية",
+      "titleFr": "Représentation graphique de termes, conjecture et convergence",
+      "scorePoints": 4,
+      "descriptionAr": "تمثيل الحدود u0, u1, u2, u3 على المنحنى البياني، التخمين حول الرتابة والتقارب، والبرهان بالتراجع.",
+      "descriptionFr": "Représentation sur courbe, conjecture sur la monotonie et convergence, récurrence.",
+      "keywords": [
+        "متتاليات",
+        "تمثيل بياني",
+        "تخمين",
+        "برهان بالتراجع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2023-1",
+      "paperYear": 2023,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2023.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2023.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2023-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية شاملة، المستقيمات المقاربة والتكامل",
+      "titleFr": "Fonction logarithme complète, asymptotes et intégration",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية، دراسة التغيرات، المستقيمات المقاربة، نقطة الانعطاف، وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction logarithmique, étude complète, asymptotes et calcul d'aires.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مستقيم مقارب",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2023-1",
+      "paperYear": 2023,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2023.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2023.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2023-2-EX2",
+      "exerciseNumber": 2,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتالية التراجعية، المتتالية الهندسية المساعدة وحساب المجاميع",
+      "titleFr": "Suite récurrente, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2023-2",
+      "paperYear": 2023,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2023.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2023.pdf",
+      "pageStart": 3,
+      "pageEnd": 5,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2023-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، مبرهنة القيم المتوسطة، نقطة الانعطاف والرسم البياني",
+      "titleFr": "Fonction exponentielle, TVI, point d'inflexion et tracé",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، مبرهنة القيم المتوسطة، نقطة الانعطاف، المستقيم المقارب ورسم المنحنى.",
+      "descriptionFr": "Fonction exponentielle, TVI, point d'inflexion, asymptote et tracé.",
+      "keywords": [
+        "دوال أسية",
+        "مبرهنة القيم المتوسطة",
+        "نقطة انعطاف"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2023-2",
+      "paperYear": 2023,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2023.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2023.pdf",
+      "pageStart": 3,
+      "pageEnd": 5,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 13
+    },
+    {
+      "id": "M2024-1-EX3",
+      "exerciseNumber": 3,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات العددية، البرهان بالتراجع، حصر المتتالية ونهايتها",
+      "titleFr": "Suites numériques, récurrence, encadrement et limite",
+      "scorePoints": 5,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة، حصر المتتالية وحساب النهاية.",
+      "descriptionFr": "Suite récurrente, récurrence, encadrement, convergence et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "تقارب"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2024-1",
+      "paperYear": 2024,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2024.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2024.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2024-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دالة أسية، المشتقات، جدول التغيرات، المستقيمات المقاربة والمساحات",
+      "titleFr": "Fonction exponentielle, dérivées, variations, asymptotes et aires",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، المستقيم المقارب المائل، نقطة الانعطاف، رسم المنحنى وحساب المساحة بالتكامل.",
+      "descriptionFr": "Fonction exponentielle complète, asymptotes obliques, inflexion et calcul d'aires.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "تكامل",
+        "مساحات"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2024-1",
+      "paperYear": 2024,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2024.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2024.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 7,
+      "solutionPageEnd": 9
+    },
+    {
+      "id": "M2024-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "متتالية معرفة بعلاقة تراجعية، المتتالية الهندسية وحساب المجاميع",
+      "titleFr": "Suite récurrente, suite géométrique et calcul de sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية وحساب المجاميع والجداءات.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2024-2",
+      "paperYear": 2024,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2024.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2024.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 12
+    },
+    {
+      "id": "M2024-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "comparative_growth_analysis",
+      "titleAr": "الدالة g(x)=1+x^2 ln(x) و f(x)=x/(1+x^2 ln(x))، قابلية الاشتقاق والتغيرات",
+      "titleFr": "Fonction g(x)=1+x^2 ln(x) et f(x)=x/(1+x^2 ln(x)), dérivabilité et variations",
+      "scorePoints": 7,
+      "descriptionAr": "الدالة g(x)=1+x^2 ln(x)، الدالة f(x)=x/(1+x^2 ln(x))، قابلية الاشتقاق عند 0 من اليمين، الوضع النسبي والتغيرات.",
+      "descriptionFr": "Fonctions g(x) et f(x), dérivabilité en 0 à droite, interprétation géométrique et tableau de variations.",
+      "keywords": [
+        "تزايد مقارن",
+        "لوغاريتم",
+        "اشتقاقية",
+        "وضع نسبي"
+      ],
+      "relatedUnitIds": [
+        "comparative_growth_analysis",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2024-2",
+      "paperYear": 2024,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2024.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2024.pdf",
+      "pageStart": 4,
+      "pageEnd": 6,
+      "solutionPageStart": 10,
+      "solutionPageEnd": 12
+    },
+    {
+      "id": "M2025-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة لوغاريتمية، الدالة المساعدة، المستقيم المقارب المائل والمساحة",
+      "titleFr": "Fonction logarithme, fonction auxiliaire, asymptote et aire",
+      "scorePoints": 7,
+      "descriptionAr": "دالة لوغاريتمية مع دالة مساعدة، دراسة إشارة المشتق، المستقيم المقارب المائل، ورسم المنحنى وحساب التكامل.",
+      "descriptionFr": "Fonction logarithmique avec fonction auxiliaire, asymptote oblique et calcul d'aire.",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مستقيم مقارب",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2025-1",
+      "paperYear": 2025,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2025.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2025.pdf",
+      "pageStart": 1,
+      "pageEnd": 2,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2025-2-EX1",
+      "exerciseNumber": 1,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات التراجعية والبرهان بالتراجع والمتتالية الهندسية وحساب المجاميع",
+      "titleFr": "Suites récurrentes, récurrence, suite géométrique et sommes",
+      "scorePoints": 4,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة وحساب المجاميع.",
+      "descriptionFr": "Suite récurrente, récurrence, suite géométrique et calcul de sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2025-2",
+      "paperYear": 2025,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2025.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2025.pdf",
+      "pageStart": 3,
+      "pageEnd": 5,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2025-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية مع مناقشة بيانية وحساب المساحة بالتكامل",
+      "titleFr": "Fonction exponentielle, discussion graphique et intégrale",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، دراسة التغيرات، المستقيمات المقاربة، المناقشة البيانية وحساب المساحة.",
+      "descriptionFr": "Fonction exponentielle, variations, asymptotes, discussion et calcul d'aire.",
+      "keywords": [
+        "دوال أسية",
+        "مناقشة بيانية",
+        "تكامل"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2025-2",
+      "paperYear": 2025,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-bac-mathematiques-2025.pdf",
+      "pdfFileName": "dzexams-annale-bac-mathematiques-2025.pdf",
+      "pageStart": 3,
+      "pageEnd": 5,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    },
+    {
+      "id": "M2026-1-EX3",
+      "exerciseNumber": 3,
+      "unitId": "numerical_sequences",
+      "titleAr": "المتتاليات العددية، دراسة اتجاه التغير والتقارب وحساب المجاميع",
+      "titleFr": "Suites numériques, sens de variation, convergence et sommes",
+      "scorePoints": 5,
+      "descriptionAr": "المتتالية u_{n+1}=f(u_n)، البرهان بالتراجع، المتتالية الهندسية المساعدة، اتجاه التغير والمجاميع.",
+      "descriptionFr": "Suite récurrente, récurrence, convergence, suite géométrique et sommes.",
+      "keywords": [
+        "متتاليات",
+        "برهان بالتراجع",
+        "مجاميع"
+      ],
+      "relatedUnitIds": [
+        "numerical_sequences"
+      ],
+      "activeUnitId": "suites_numeriques",
+      "subUnits": [],
+      "paperId": "M2026-1",
+      "paperYear": 2026,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pdfFileName": "dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2026-1-EX4",
+      "exerciseNumber": 4,
+      "unitId": "primitives_integrals",
+      "titleAr": "الدالة f(x)=x-2-(2+ln((x-1)^2))/(x-1)، المقارب المائل، مركز التناظر، والمساحة A(lambda)",
+      "titleFr": "Fonction f(x)=x-2-(2+ln((x-1)^2))/(x-1), asymptote, symétrie et aire A(lambda)",
+      "scorePoints": 7,
+      "descriptionAr": "الدالة f على R-{1}، النهايات، جدول التغيرات، المقارب المائل y=x-2، مركز التناظر، المماسان المتوازيان والمساحة A(lambda)=2(ln(lambda-1))^2.",
+      "descriptionFr": "Fonction rationnelle avec logarithme, asymptote oblique, centre de symétrie, tangentes et calcul d'aire A(lambda).",
+      "keywords": [
+        "دوال لوغاريتمية",
+        "مستقيم مقارب",
+        "مركز تناظر",
+        "تكامل",
+        "مساحة"
+      ],
+      "relatedUnitIds": [
+        "primitives_integrals",
+        "numerical_functions_limits",
+        "numerical_functions_diff_cont"
+      ],
+      "activeUnitId": "fonctions_logarithmiques",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2026-1",
+      "paperYear": 2026,
+      "paperSession": "normale",
+      "paperOption": 1,
+      "pdfUrl": "/pdfs/dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pdfFileName": "dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pageStart": 1,
+      "pageEnd": 3,
+      "solutionPageStart": 6,
+      "solutionPageEnd": 8
+    },
+    {
+      "id": "M2026-2-EX4",
+      "exerciseNumber": 4,
+      "unitId": "exp_ln_functions",
+      "titleAr": "دراسة دالة أسية شاملة، المستقيمات المقاربة، نقطة الانعطاف والمناقشة البيانية",
+      "titleFr": "Fonction exponentielle complète, asymptotes, inflexion et discussion",
+      "scorePoints": 7,
+      "descriptionAr": "دالة أسية مع دالة مساعدة، المستقيمات المقاربة، نقطة الانعطاف، رسم المنحنى البياني والمناقشة البيانية.",
+      "descriptionFr": "Fonction exponentielle avec fonction auxiliaire, asymptotes, point d'inflexion, tracé et discussion.",
+      "keywords": [
+        "دوال أسية",
+        "مستقيم مقارب",
+        "نقطة انعطاف",
+        "مناقشة بيانية"
+      ],
+      "relatedUnitIds": [
+        "exp_ln_functions",
+        "numerical_functions_limits",
+        "comparative_growth_analysis"
+      ],
+      "activeUnitId": "fonctions_exponentielles",
+      "subUnits": [
+        "limites",
+        "derivabilite_continuite",
+        "croissance_comparee_etude"
+      ],
+      "paperId": "M2026-2",
+      "paperYear": 2026,
+      "paperSession": "normale",
+      "paperOption": 2,
+      "pdfUrl": "/pdfs/dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pdfFileName": "dzexams-annale-SVNqSlBJOVFvMk9uLzJuaHJ6V2ZKUT09.pdf",
+      "pageStart": 4,
+      "pageEnd": 5,
+      "solutionPageStart": 9,
+      "solutionPageEnd": 11
+    }
+  ]
+}
